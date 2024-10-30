@@ -10,6 +10,10 @@ yes.addEventListener('click', () => {
     text.innerHTML = "YEHEY!!!";
 });
 
+no.addEventListener('click', () => {
+    text.innerHTML = "DAMOT MO";
+})
+
 no.addEventListener('mouseover', () => {
     const posX = Math.floor(Math.random() * (500 - 1) + 1);
     const posY = Math.floor(Math.random() * (500 - 1) + 1);
